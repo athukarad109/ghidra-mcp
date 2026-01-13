@@ -1,0 +1,2 @@
+ext.ghidraInstallDir = "D:/ghidra_12.0_PUBLIC_20251205/ghidra_12.0_PUBLIC"
+apply from: "${ghidraInstallDir}/support/buildExtension.gradle"
