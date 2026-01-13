@@ -185,10 +185,3 @@ ghidra_mcp/
 └── README.md
 ```
 
-## License
-
-[Add your license information here]
-
-## Contributing
-
-[Add contribution guidelines here if applicable]
