@@ -105,7 +105,10 @@ Replace the path with your actual Ghidra installation directory. On Windows, use
    - `ghidra_health`: Check if the Ghidra bridge is reachable
    - `get_current_program`: Get the current program name and image base
    - `list_functions`: List functions from the current program
+   - `get_function_context`: Get a function’s prototype/callees/strings (+ optional decompile text)
    - `rename_function`: Rename a function at a specific entry address
+   - `auto_rename_functions`: Batch suggest/apply renames for default `FUN_`/`sub_` names
+   - `scan_anti_debug`: Scan for common anti-debugging heuristics (API calls + instruction mnemonics)
    - `patch_bytes`: Patch bytes at a specific address
    - `set_comment`: Set an end-of-line comment at an address
 

@@ -1,24 +1,22 @@
 package ghidramcp;
 
-import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpServer;
-
-import ghidra.framework.plugintool.Plugin;
-import ghidra.framework.plugintool.PluginInfo;
-import ghidra.framework.plugintool.PluginTool;
-import ghidra.framework.plugintool.util.PluginStatus;
-
-import ghidra.app.services.ProgramManager;
-import ghidra.program.model.listing.Function;
-import ghidra.program.model.listing.FunctionIterator;
-import ghidra.program.model.listing.Program;
-
-import ghidra.util.Msg;
-
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
+
+import com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpServer;
+
+import ghidra.app.services.ProgramManager;
+import ghidra.framework.plugintool.Plugin;
+import ghidra.framework.plugintool.PluginInfo;
+import ghidra.framework.plugintool.PluginTool;
+import ghidra.framework.plugintool.util.PluginStatus;
+import ghidra.program.model.listing.Function;
+import ghidra.program.model.listing.FunctionIterator;
+import ghidra.program.model.listing.Program;
+import ghidra.util.Msg;
 
 @PluginInfo(
         status = PluginStatus.STABLE,
